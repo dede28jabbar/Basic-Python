@@ -9,7 +9,7 @@ msg = MIMEMultipart()
 msg['From'] = fromaddr
 msg['To'] = toaddr
 msg['Subject'] = "Test Python"
-password = "lockedroom28"
+password = "ini password"
 
 body = "Hello, Selamat pagi menjelang siang!"
 msg.attach(MIMEText(body, 'plain'))
